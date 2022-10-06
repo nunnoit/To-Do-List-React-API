@@ -1,12 +1,62 @@
+body {
+    background-color: #104a42;
+}
+.subsection:hover *{
+        opacity: 0.8 !important;
+        transition: all .5s !important;
+        justify-content: flex-end !important;
+        align-items: center !important;
+        width: 100% !important;
+        height: 100% !important;
+        color: black;
+}
 
-/* 
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: white;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+input {
+    /* border: 1px solid rgba(0,0,0,.125) !important; */
+    padding-left: 18px;
+}
+.inputMod {
+    width: 100%;
+    padding: 5px;
+}
+.inputMod2 {
+   width: 100%;
+   padding: 8px;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.row>* {
+    padding-right: 0px !important;
+}
+.card {
+    border: none !important;
+    border-radius: 25%;
+}
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+.btnMod {
+    /* background-color: red; */
+    width: 25%;
+}
+.btnMod i{
+    font-size: 25px;
+}
